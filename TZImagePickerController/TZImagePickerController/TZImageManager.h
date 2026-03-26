@@ -132,6 +132,7 @@
 - (NSString *)getNewTimeFromDurationSecond:(NSInteger)duration;
 
 - (TZAssetModel *)createModelWithAsset:(PHAsset *)asset;
+- (TZAssetModelMediaType)getAssetType:(PHAsset *)asset;
 
 @end
 
